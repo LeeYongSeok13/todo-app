@@ -41,10 +41,17 @@
     }
     & + & {
         border-top: 1px solid #dee2e6;
-    }
-    
+    }    
 }
 
+.TodoListItem-vertualized {
+    & + & {
+        border-top: 1px solid;
+    }
+    &:nth-child(even) {
+        background: #f8f9fa;
+    }
+}
 
 
 // 엘리먼트 사이사이에 테두리를 넣어 줌
